@@ -1,0 +1,59 @@
+# Given an integer array nums, find a subarray that has the largest product, and return the product.
+
+# The test cases are generated so that the answer will fit in a 32-bit integer.
+
+ 
+
+# Example 1:
+
+# Input: nums = [2,3,-2,4] Output: 6 Explanation: [2,3] has the largest product 6.
+
+
+
+
+
+
+# Given an integer array nums and an integer k, return the kth largest element in the array.
+
+# Note that it is the kth largest element in the sorted order, not the kth distinct element.
+
+# Can you solve it without sorting?
+
+ 
+
+# Example 1:
+
+# Input: nums = [3,2,1,5,6,4], k = 2 Output: 5
+
+
+Question2
+
+# You are given an array of non-overlapping intervals intervals where intervals[i] = [starti, endi] represent the start and the end of the ith interval and intervals is sorted in ascending order by starti. You are also given an interval newInterval = [start, end] that represents the start and end of another interval.
+
+# Insert newInterval into intervals such that intervals is still sorted in ascending order by starti and intervals still does not have any overlapping intervals (merge overlapping intervals if necessary).
+
+# Return intervals after the insertion.
+
+# Note that you don't need to modify intervals in-place. You can make a new array and return it.
+
+ 
+
+# Example 1:
+
+# Input: intervals = [[1,3],[6,9]], newInterval = [2,5] Output: [[1,5],[6,9]]
+  
+  
+
+Question5  
+# You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position.
+
+# Return true if you can reach the last index, or false otherwise.
+
+ 
+
+# Example 1:
+
+# Input: nums = [2,3,1,1,4] Output: true Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+# Example 2:
+
+# Input: nums = [3,2,1,0,4] Output: false Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
