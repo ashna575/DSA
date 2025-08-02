@@ -1,36 +1,33 @@
 # Given an integer array nums, find a subarray that has the largest product, and return the product.
 
 # The test cases are generated so that the answer will fit in a 32-bit integer.
-
- 
-
 # Example 1:
 
 # Input: nums = [2,3,-2,4] Output: 6 Explanation: [2,3] has the largest product 6.
 
 
-
-
-
-
+# Question2
+# 
 # Given an integer array nums and an integer k, return the kth largest element in the array.
 
 # Note that it is the kth largest element in the sorted order, not the kth distinct element.
 
 # Can you solve it without sorting?
-
- 
-
 # Example 1:
 
 # Input: nums = [3,2,1,5,6,4], k = 2 Output: 5
 
 
-Question2
+# Question3
 
-# You are given an array of non-overlapping intervals intervals where intervals[i] = [starti, endi] represent the start and the end of the ith interval and intervals is sorted in ascending order by starti. You are also given an interval newInterval = [start, end] that represents the start and end of another interval.
+# You are given an array of non-overlapping intervals intervals where intervals[i] = [starti, endi] 
+# represent the start and the end of the ith interval and intervals is sorted in ascending order 
+# by starti. You are also given an interval newInterval = [start, end] that represents the start
+# and end of another interval.
 
-# Insert newInterval into intervals such that intervals is still sorted in ascending order by starti and intervals still does not have any overlapping intervals (merge overlapping intervals if necessary).
+# Insert newInterval into intervals such that intervals is still sorted in ascending order by
+# starti and intervals still does not have any overlapping intervals (merge overlapping intervals
+# if necessary).
 
 # Return intervals after the insertion.
 
@@ -44,7 +41,7 @@ Question2
   
   
 
-Question5  
+# Question5  
 # You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position.
 
 # Return true if you can reach the last index, or false otherwise.
