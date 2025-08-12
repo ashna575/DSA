@@ -1,11 +1,12 @@
 def binarySearch(target,arry):
     low=0
     high=len(arry)-1
-    while low<=high:
+    s=sorted(arry)
+    while low<high:
       midpoint=low+high//2
-      if arry[midpoint]==target:
+      if s[midpoint]==target:
          return midpoint
-      elif arry[midpoint]>target:
+      elif s[midpoint]>target:
         high=midpoint-1
        
       else :     
