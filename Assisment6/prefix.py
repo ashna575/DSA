@@ -7,6 +7,6 @@ for word in words[1:]:
     while not word.startswith(prefix):
         prefix = prefix[:-1]  
         if prefix == "": 
-            break
+            break;
 
 print("Common prefix:", prefix)
