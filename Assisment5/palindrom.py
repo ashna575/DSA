@@ -11,6 +11,8 @@ for i in range(n // 2):
         palindrom.insert(0, right)                                                                        # add matching char from end at the start
 
 print(palindrom)
+
+
     
 
 
