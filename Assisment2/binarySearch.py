@@ -15,6 +15,5 @@ def binarySearch(target,arry):
        
 arry=[2,34,5,67,7]
 target=7
-
 print(binarySearch(target,arry))            
 
