@@ -4,10 +4,14 @@ for i in range(len(num)):
     for j in range(i+1,len(num)):
         if num[j] < num[min]:
             min = j
-    num[i],num[min]=num[min],num[i]
+    c=num[min]
+    num[min]=num[i]
+    num[i]=c
             
 
 print(num) 
+          
+          
             
  
 

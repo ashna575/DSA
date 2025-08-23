@@ -1,15 +1,12 @@
-def bubbleSort(num):
-    for i in range(len(num)):
-      for j in range(len(num)-1):
-          if num[j] >num[j+1]:
-              num[j+1],num[j]=num[j],num[j+1] 
-    return num 
-        
-        
-        
-        
-num=[2,44,54,3,4,23,42,8]
-print(bubbleSort(num))
-
       
-        
+array=[3,45,32,4,5,24,23,8,7,5,77,6,75,67] 
+n=len(array)
+for i in range(0,n-1):
+    for j in range(0,n-1-i):
+         if array[j]>array[j+1]:
+            temp = array[j]
+            array[j] = array[j+1]
+            array[j+1] = temp
+
+
+print(array)                  
