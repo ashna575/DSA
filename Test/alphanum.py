@@ -8,3 +8,4 @@ for ch in text:
         result += ch
 
 print("String after removing symbols:", result)
+
