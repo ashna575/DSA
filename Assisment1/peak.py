@@ -5,7 +5,7 @@ def findPeak(nums):
         if nums[mid] < nums[mid+1]:
             left = mid+1
         else:
-            right = mid
+            right = mid 
     return left
 
 print(findPeak([1,2,3,1]))  
