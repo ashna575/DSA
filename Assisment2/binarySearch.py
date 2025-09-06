@@ -13,7 +13,7 @@ def binarySearch(target,arry):
         low = midpoint+1  
        
        
-arry=[2,34,5,67,7]
+arry=[34,4,2,34,5,67,7]
 target=7
 print(binarySearch(target,arry))            
 
