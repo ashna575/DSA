@@ -5,8 +5,8 @@ class Node:
 
 
 node1=Node(10)
-node2=Node(33)
-node3=Node(34)
+node2=Node(13)
+node3=Node(22)
 node4=Node(89)
 
 node1.next=node2
