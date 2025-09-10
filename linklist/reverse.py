@@ -19,7 +19,7 @@ def reverse(n1):
 
 def print_list(head):
     current = head
-    while current:
+    while current :
         print(current.data, end=" -> ")
         current = current.next
     print("None")
