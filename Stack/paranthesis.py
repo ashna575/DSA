@@ -13,4 +13,4 @@ def is_balanced(expr):
 
 
 print(is_balanced("{[()]}")) 
-print(is_balanced("{[(])}"))   
+print(is_balanced("[()(){}]"))   
