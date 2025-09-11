@@ -9,8 +9,8 @@ def is_balanced(expr):
             if not stack or stack[-1] != pairs[ch]:
                 return False
             stack.pop()
-    return not stack
+    return  len(stack)==0
 
 
-print(is_balanced("{[()]}"))   # True
-print(is_balanced("{[(])}"))   # False
+print(is_balanced("{[()]}")) 
+print(is_balanced("{[(])}"))   
