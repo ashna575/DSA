@@ -1,4 +1,4 @@
-def subarray_with_sum(arr, target):
+def subarraysum(arr, target):
     n = len(arr)
     for i in range(n):
         s = 0
@@ -12,5 +12,5 @@ def subarray_with_sum(arr, target):
 
 arr = [1, 2, 3, 7, 5]
 target = 12
-result = subarray_with_sum(arr, target)
+result = subarraysum(arr, target)
 print("Subarray:", result)
