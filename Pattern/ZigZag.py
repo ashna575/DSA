@@ -1,4 +1,3 @@
-# Zig-Zag Number Wave Pattern
 
 n = int(input("Enter number of rows: "))
 m = int(input("Enter number of columns: "))
