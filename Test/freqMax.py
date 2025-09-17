@@ -9,6 +9,8 @@ def frequency(arr):
 
 
 array = [2, 4, 2, 1, 45, 4, 2, 2]
+array = [2, 4, 2, 1, 45, 4, 2, 2]
+array = [2, 4, 2, 1, 45, 4, 2, 2]
 
 s = frequency(array)
 print("Frequencies:", s)
