@@ -9,4 +9,4 @@ for i in range(0,n-1):
             array[j+1] = temp
 
 
-print(array)                  
+print(array)                
