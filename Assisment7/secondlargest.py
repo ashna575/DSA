@@ -1,14 +1,11 @@
-def second_largest_sort(arr):
-    if len(arr) < 2:
-        return "Array must have at least two elements"
-
+def second_larg(arr):
+   
     arr = list(set(arr))  
     arr.sort()
 
     if len(arr) < 2:
-        return "No second largest element"
+        return "false"
     return arr[-2]
 
-# Example
 arr = [12, 35, 1, 10, 34, 1]
-print("Second largest:", second_largest_sort(arr))
+print(second_larg(arr))
